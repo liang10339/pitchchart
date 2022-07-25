@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pitchchart/static/css/main.e007bd96.css",
+    "main.js": "/pitchchart/static/js/main.c4f1454c.js",
+    "static/js/787.fad0f81a.chunk.js": "/pitchchart/static/js/787.fad0f81a.chunk.js",
+    "static/media/strikezone.png": "/pitchchart/static/media/strikezone.cd635bb105b26528064e.png",
+    "index.html": "/pitchchart/index.html",
+    "main.e007bd96.css.map": "/pitchchart/static/css/main.e007bd96.css.map",
+    "main.c4f1454c.js.map": "/pitchchart/static/js/main.c4f1454c.js.map",
+    "787.fad0f81a.chunk.js.map": "/pitchchart/static/js/787.fad0f81a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e007bd96.css",
+    "static/js/main.c4f1454c.js"
+  ]
+}
