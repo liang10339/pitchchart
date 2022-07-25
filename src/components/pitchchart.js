@@ -16,12 +16,13 @@ const PitchChart = () => {
   const [chart, setChart] = useState({});
   // const baseUrl ="https://statsinsight-code-interview.herokuapp.com/get/Get_Balls_CI";
   // const baseUrl ="http://localhost:8080/api/";
-  var baseUrl = "https://polastats.herokuapp.com/";
-  var proxyUrl = "https://cors-anywhere.herokuapp.com/";
+  const baseUrl = "https://polastats.herokuapp.com/";
+  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
   useEffect(() => {
     const fetchStats = async () => {
       await fetch(`${proxyUrl}${baseUrl}`, {
+      // await fetch(`${baseUrl}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -40,7 +41,8 @@ const PitchChart = () => {
         });
     };
     fetchStats();
-  }, [baseUrl, proxyUrl]);
+  // }, [baseUrl]);
+   }, [baseUrl, proxyUrl]);
 
   let positions = [];
   for (let i = 0; i < chart.length; i++) {
@@ -85,11 +87,11 @@ const PitchChart = () => {
     scales: {
       y: {
         beginAtZero: true,
-        display: true,
+        display: false,
       },
       x: {
         beginAtZero: true,
-        display: true,
+        display: false,
       },
     },
   };
