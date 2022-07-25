@@ -111,7 +111,6 @@ const PitchChart = () => {
       ctx.save();
       ctx.globalCompositeOperation = "destination-over";
       imageObj.onload = function () {
-        console.log(imageObj.width,imageObj.height)
         ctx.drawImage(imageObj, -320, -400);
       };
       ctx.restore();
