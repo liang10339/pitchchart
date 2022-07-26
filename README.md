@@ -1,6 +1,7 @@
 Demo : https://liang10339.github.io/pitchchart/
 
-Autual : <img width="667" alt="" src="https://user-images.githubusercontent.com/34334123/180901923-7ea99706-a3c6-4602-b2f2-782cea2603c2.png">
+Autual : 
+<img width="667" alt="" src="https://user-images.githubusercontent.com/34334123/180901923-7ea99706-a3c6-4602-b2f2-782cea2603c2.png">
 
 
 
