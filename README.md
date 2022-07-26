@@ -1,3 +1,9 @@
+Demo : https://liang10339.github.io/pitchchart/
+
+Autual : <img width="667" alt="" src="https://user-images.githubusercontent.com/34334123/180901923-7ea99706-a3c6-4602-b2f2-782cea2603c2.png">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
